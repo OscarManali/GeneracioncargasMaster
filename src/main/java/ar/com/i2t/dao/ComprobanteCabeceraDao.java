@@ -17,7 +17,7 @@ import org.apache.commons.lang3.StringUtils;
 @Stateless
 public class ComprobanteCabeceraDao extends SQLServerDataOriginDao<ComprobanteCabecera> {
 
-	// agrego un comentario vuelvo sip
+	// agrego un comentario 
 		
     public ComprobanteCabeceraDao() {
         super(ComprobanteCabecera.class);

@@ -8,6 +8,7 @@ import javax.persistence.PersistenceContext;
 public abstract class SQLServerDataOriginDao<T> extends AbstractDao<T> {
 
     // Definición del origen de datos, ejemplo sql server data source 
+	// en jboss.
     @PersistenceContext(unitName = "db2DataSource")
     private EntityManager em;
 
